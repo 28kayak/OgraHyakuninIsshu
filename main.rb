@@ -1,6 +1,10 @@
 #main.rb
 require "sinatra"
+require "sinatra/reloader"
 
 get '/' do
-	"hello world"
+	"Hello world"
+end
+get '/poem' do
+	"this is another page!"
 end
